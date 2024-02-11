@@ -16,12 +16,36 @@ namespace Data
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<Slide> Slides { get; set; }
         public virtual DbSet<User> Users { get; set; }
-        // dbsetleri hazırladıktan sonra önce enable-migrations ile göçü aktif edip sonra update-database ile db yi oluşturuyoruz
+        // dbsetleri hazırladıktan sonra burada enable-migrations yapmıyoruz!!!
+
+        // Veritabanı yoksa aşağıdaki package manager console u açıyoruz
+        // Önce DefaultProject kısmından Data katamanını seçiyoruz
+        // Sonra add-migration InitialCreate komutunu yazıp enter a basıp işlemi bekliyoruz.
+        // Sonra aynı alana yine data katmanı seçiliyken update-database diyerek veritabanını oluşturuyoruz
+
         // veritabanı oluştuktan sonra projeye add new scaffolded item menüsünden adı admin olan bir area ekliyoruz
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"database=(LocalDb)\MSSQLLocalDB; initial catalog=MVCKurumsalSiteProje; integrated security=True;");
+            optionsBuilder.UseSqlServer(@"server=(LocalDb)\MSSQLLocalDB; database=MVCNetCoreKurumsalSiteProje; integrated security=True; trustservercertificate=True;");
             base.OnConfiguring(optionsBuilder);
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Bu metot veritabanı oluştuktan sonra varsayılan kullanıcı ekleme veya örnek kategori ürün vb ekleme işlemleri için seed data işlerimizi yapabileceğimiz metottur.
+
+            // .net core da seed data aşağıdaki şekilde tanımlanıyor
+            // Not : burada Id yi de manuel veriyoruz!
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 1,
+                Email = "admin@mvckurumsal.net",
+                IsActive = true,
+                IsAdmin = true,
+                Name = "Admin",
+                Surname = "User",
+                Password = "Admin123"
+            });
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

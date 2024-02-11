@@ -12,7 +12,7 @@ namespace Entities
         [StringLength(50), Required]
         public string Email { get; set; }
         [Display(Name = "Telefon"), StringLength(15)]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
         [Display(Name = "Şifre"), StringLength(50), Required]
         public string Password { get; set; }
         [Display(Name = "Eklenme Tarihi"), ScaffoldColumn(false)]

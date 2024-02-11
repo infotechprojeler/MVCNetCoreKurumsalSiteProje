@@ -8,9 +8,9 @@ namespace Entities
         [Display(Name = "Adı"), StringLength(150), Required]
         public string Name { get; set; }
         [Display(Name = "Açıklama"), DataType(DataType.MultilineText)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Display(Name = "Resim"), StringLength(100)]
-        public string Image { get; set; }
+        public string? Image { get; set; }
         [Display(Name = "Durum")]
         public bool IsActive { get; set; }
         [Display(Name = "Anasayfada Göster")]
@@ -20,6 +20,6 @@ namespace Entities
         [Display(Name = "Kategori")]
         public int CategoryId { get; set; }
         [Display(Name = "Kategori")]
-        public virtual Category Category { get; set; }
+        public virtual Category? Category { get; set; }
     }
 }
