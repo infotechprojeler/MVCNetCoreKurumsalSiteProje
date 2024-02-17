@@ -81,8 +81,20 @@
       "PackagePath": "staticwebassets\\AdminTema\\tables.html"
     },
     {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\bridge-19513_1280.jpg",
+      "PackagePath": "staticwebassets\\Images\\bridge-19513_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\unsplash-photo-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\unsplash-photo-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\unsplash-photo-2.jpg",
       "PackagePath": "staticwebassets\\Images\\unsplash-photo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\unsplash-photo-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\unsplash-photo-3.jpg"
     },
     {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\css\\site.css",
