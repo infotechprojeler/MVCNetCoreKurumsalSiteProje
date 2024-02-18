@@ -21,13 +21,17 @@
                     {
                         <li><a class="dropdown-item" href="/Categories/Index/@item.Id">@item.Name</a></li>
                     }
+                    @* <li><a class="dropdown-item" href="/Posts">Tüm Eğitimlerimiz</a></li> *@
+                    <li><a class="dropdown-item" asp-controller="Posts" asp-action="Index">Tüm Eğitimlerimiz</a></li>
                 </ul>
             </li>
             <li><a href="#" class="nav-link px-2 link-secondary">Sık Sorulan Sorular</a></li>
             <li><a href="/iletisim" class="nav-link px-2 link-secondary">İletişim</a></li>
         </ul>
-
-        <div class="col-md-3 text-end">
+        <form asp-controller="Posts" asp-action="Search" method="get" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input name="q" type="search" class="form-control form-control-dark" placeholder="Ara..." aria-label="Search">
+        </form>
+        <div class="text-end">
             <button type="button" class="btn btn-outline-primary me-2">Giriş</button>
             <button type="button" class="btn btn-primary">Kayıt</button>
         </div>

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Post>
+@{
+    ViewBag.Title = "Tüm Eğitimlerimiz";
+}
+
+<h2>Tüm Eğitimlerimiz</h2>
+
+<div class="row row-cols-3">
+    <partial name="_PartialPostView" model="Model" />
+</div>

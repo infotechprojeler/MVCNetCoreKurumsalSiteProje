@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g18huPPc3+NfGmwozcMt+6+Gh+VPxMccQ6uWc5kxfgs=",
+  "Hash": "/4XLI3q44PO63S6J5oN8ayu958DoHwcnWiOcEe/0/hU=",
   "Source": "MVCNetCoreKurumsalSiteProje",
   "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
   "Mode": "Default",
@@ -547,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\aspnetcoemvc16.png"
+    },
+    {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\bgVideo.jpg",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/bgVideo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bgVideo.jpg"
     },
     {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\bridge-19513_1280.jpg",

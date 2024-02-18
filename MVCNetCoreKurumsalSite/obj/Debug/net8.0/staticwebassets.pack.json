@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\Images\\aspnetcoemvc16.png"
     },
     {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\bgVideo.jpg",
+      "PackagePath": "staticwebassets\\Images\\bgVideo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\bridge-19513_1280.jpg",
       "PackagePath": "staticwebassets\\Images\\bridge-19513_1280.jpg"
     },

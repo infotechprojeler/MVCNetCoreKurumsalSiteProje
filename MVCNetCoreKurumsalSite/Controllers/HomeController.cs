@@ -1,4 +1,5 @@
 using Data;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using MVCNetCoreKurumsalSiteProje.Models;
 using System.Diagnostics;
@@ -19,7 +20,7 @@ namespace MVCNetCoreKurumsalSiteProje.Controllers
             var model = new HomePageViewModel()
             {
                 Slides = _context.Slides.ToList(),
-                Categories = _context.Categories.ToList(),
+                Categories = _context.Categories.Where(p => p.IsActive && p.IsHome).ToList(),
                 Posts = _context.Posts.Where(p => p.IsActive && p.IsHome).ToList()
             };
             return View(model);
@@ -30,6 +31,38 @@ namespace MVCNetCoreKurumsalSiteProje.Controllers
             return View();
         }
 
+        [Route("hakkimizda")]
+        public ActionResult About()
+        {
+            return View();
+        }
+        [Route("iletisim")]
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult ContactUs(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Contacts.Add(contact);
+                    var sonuc = _context.SaveChanges();
+                    if (sonuc > 0)
+                    {
+                        TempData["Mesaj"] = "<div class='alert alert-success'>Teþekkürler.. Mesajýnýz Bize Ulaþtý..</div>";
+                    }
+                }
+                catch (System.Exception)
+                {
+                    TempData["Mesaj"] = "<div class='alert alert-danger'>Hata Oluþtu! Mesajýnýz Gönderilemedi..</div>";
+                }
+            }
+            return RedirectToAction("Index");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
