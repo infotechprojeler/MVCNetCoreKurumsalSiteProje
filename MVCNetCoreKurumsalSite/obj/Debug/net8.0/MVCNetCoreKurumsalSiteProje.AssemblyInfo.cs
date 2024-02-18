@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCNetCoreKurumsalSiteProje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b53e6003e5d9efeb4a8994857d85af4bbba6baa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48146ece95d6731877479ed835bf947ef5346af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCNetCoreKurumsalSiteProje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCNetCoreKurumsalSiteProje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

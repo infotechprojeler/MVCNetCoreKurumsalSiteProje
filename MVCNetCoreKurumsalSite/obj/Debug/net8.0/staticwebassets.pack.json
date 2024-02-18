@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\Images\\bridge-19513_1280.jpg"
     },
     {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\infotechacademy_python_veribilimi_egitimi26.png",
       "PackagePath": "staticwebassets\\Images\\infotechacademy_python_veribilimi_egitimi26.png"
     },

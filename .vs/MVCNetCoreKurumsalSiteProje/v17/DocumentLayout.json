@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1904EEF-6000-476E-82AC-C7D0E5D2B742}|WebAPI\\WebAPI.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1904EEF-6000-476E-82AC-C7D0E5D2B742}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1904EEF-6000-476E-82AC-C7D0E5D2B742}|WebAPI\\WebAPI.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1904EEF-6000-476E-82AC-C7D0E5D2B742}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +40,61 @@
               "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-17T10:43:00.082Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-02-18T11:30:18.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:18:55.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Program.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Program.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Program.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:18:39.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:11:08.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T11:11:02.065Z",
               "EditorCaption": ""
             }
           ]

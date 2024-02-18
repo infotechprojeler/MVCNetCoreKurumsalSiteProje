@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/4XLI3q44PO63S6J5oN8ayu958DoHwcnWiOcEe/0/hU=",
+  "Hash": "snB6geQM09/2CWz9u5a15/PToUOl02U2mIjYV/NnA0s=",
   "Source": "MVCNetCoreKurumsalSiteProje",
   "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
   "Mode": "Default",
@@ -585,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\bridge-19513_1280.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\favicon.ico",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\infotechacademy_python_veribilimi_egitimi26.png",
