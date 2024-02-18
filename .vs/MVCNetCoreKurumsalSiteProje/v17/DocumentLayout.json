@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\shared\\_partialfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\shared\\_partialfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\models\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\models\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\shared\\_partialslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\shared\\_partialslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\views\\shared\\_partialcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\views\\shared\\_partialcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\viewcomponents\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\viewcomponents\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_PartialFooter.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialFooter.cshtml",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialFooter.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialFooter.cshtml",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialFooter.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T07:36:18.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T11:30:02.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_PartialSlider.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialSlider.cshtml",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialSlider.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialSlider.cshtml",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialSlider.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-17T11:23:40.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-17T10:43:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_PartialContact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialContact.cshtml",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialContact.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialContact.cshtml",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Shared\\_PartialContact.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwCgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T07:10:42.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-17T11:22:18.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Models\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Models\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Models\\HomePageViewModel.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Models\\HomePageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T11:21:21.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\ViewComponents\\Categories.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\ViewComponents\\Categories.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\ViewComponents\\Categories.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\ViewComponents\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T10:46:55.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

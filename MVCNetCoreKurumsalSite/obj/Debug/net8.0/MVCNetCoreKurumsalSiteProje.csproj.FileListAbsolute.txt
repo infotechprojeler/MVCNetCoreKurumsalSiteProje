@@ -267,10 +267,10 @@ C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKur
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\scopedcss\bundle\MVCNetCoreKurumsalSiteProje.styles.css
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\scopedcss\projectbundle\MVCNetCoreKurumsalSiteProje.bundle.scp.css
-C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCoreKurumsalSiteProje.csproj.CopyComplete
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCoreKurumsalSiteProje.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\refint\MVCNetCoreKurumsalSiteProje.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCoreKurumsalSiteProje.pdb
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCoreKurumsalSiteProje.genruntimeconfig.cache
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\ref\MVCNetCoreKurumsalSiteProje.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCo.DF5B21A2.Up2Date

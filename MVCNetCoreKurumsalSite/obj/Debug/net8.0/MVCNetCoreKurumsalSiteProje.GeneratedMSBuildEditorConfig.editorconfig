@@ -46,8 +46,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Main/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpblxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Posts/Create.cshtml]
@@ -86,6 +110,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Slides/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Slides/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Slides/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Slides/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Slides/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Areas/Admin/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +158,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -122,8 +174,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/Components/Categories/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/_PartialContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/_PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/_PartialSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsU2xpZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Infotech Academy/source/repos/MVCNetCoreKurumsalSiteProje/MVCNetCoreKurumsalSite/Views/Shared/_ValidationScriptsPartial.cshtml]

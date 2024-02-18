@@ -27,9 +27,9 @@ C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debu
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.sourcelink.json
-C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.csproj.CopyComplete
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\Data\obj\Debug\net8.0\Data.csproj.Up2Date

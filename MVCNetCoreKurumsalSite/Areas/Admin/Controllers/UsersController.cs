@@ -2,10 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Data;
 using Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class UsersController : Controller
     {
         private readonly DatabaseContext _context;

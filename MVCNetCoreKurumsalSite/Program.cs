@@ -1,10 +1,15 @@
 using Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
+{
+    x.LoginPath = "/Admin/Main/Login";
+}); // Cookie based Authentication
 builder.Services.AddDbContext<DatabaseContext>(); // veritabaný iþlemleri için
 
 var app = builder.Build();

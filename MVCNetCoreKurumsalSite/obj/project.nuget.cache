@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "P4IrpNpeXOnb1xLyO5+Yw9QiYEGDJ91hFbXXPvhGyw7wwLZxTUcjvxwxmkYKeL3OSET5OIjTUVuhTG7DDCfokA==",
+  "dgSpecHash": "Yd0QndT0IM0SRDdrxG6z1Aow9rx3/bejsGRypfdc+/iypsmUp/cF0hwA1AQZ+QqrRTL9i527NWGZ7yGwHWXlCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Infotech Academy\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Infotech Academy\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Infotech Academy\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Infotech Academy\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Infotech Academy\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Infotech Academy\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

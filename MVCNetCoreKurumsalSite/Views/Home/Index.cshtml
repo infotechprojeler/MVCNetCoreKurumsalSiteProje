@@ -1,8 +1,111 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model HomePageViewModel
+@{
+    ViewData["Title"] = "Anasayfa";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@await Html.PartialAsync("_PartialSlider", Model.Slides)
+
+
+<div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Eğitimlerimiz</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+        @foreach (var item in Model.Categories)
+        {
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/Images/@item.Image');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4">
+                            @item.Name
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
 </div>
+
+<div class="text-center">
+    <h2>EĞİTİM PROGRAMLARIMIZ</h2>
+    <p class="w-50 m-auto">
+        Bilişim ve Eğitim sektöründeki köklü geçmişimiz, kurslarını başarıyla tamamlamış yüzlerce öğrenci ve danışmanlık hizmeti sunduğumuz, onlarca kurumsal firma ile eğitim kalitemizi arttırmaya devam ediyoruz.
+    </p>
+</div>
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="owl-carousel">
+
+            @foreach (var item in Model.Posts)
+            {
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/Images/@item.Image" />
+                        <div class="card-body">
+                            <p class="card-text">
+                                @item.Name
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">                             
+                                <small class="text-body-secondary">@item.Category.Name</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h3>Neden Infotech Academy?</h3>
+            <h1 class="display-5 fw-bold lh-1 text-body-emphasis">BİLİŞİM EĞİTİMLERİNİN DOĞRU ADRESİ</h1>
+            <p class="lead">İş hayatında aktif olarak kullanılan yazılım araçları ve teknolojiler üzerine eğitimler sunan Infotech Academy, sadece teorik değil uygulamaya yönelik güncel eğitimler vermektedir. Ayrıca öğrenci, yeni mezun ve kariyerini geliştirmek isteyen personellerin en çok ihtiyaç duyduğu bazı sosyal meslek eğitimlerini de gerçekleştiren Infotech Academy, uygulama yönü ile farklılaşmıştır.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <button type="button" class="btn btn-danger btn-lg px-4 me-md-2 fw-bold">Detaylı Bilgi</button>
+            </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="/Images/bgVideo.jpg" alt="" width="720">
+        </div>
+    </div>
+</div>
+
+<div class="container px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-6 text-center text-lg-start">
+            <h3>Avantajlı eğitim firsatlarından faydalanmak için</h3>
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">HEMEN İLETİŞİME GEÇİN.</h1>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-6">
+            @await Html.PartialAsync("_PartialContact")
+        </div>
+    </div>
+</div>
+
+
+@section style{
+    <link href="/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="/css/owl.theme.default.min.css" rel="stylesheet" />
+}
+@section scripts{
+    <script src="/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                nav: true
+            });
+        });
+    </script>
+}

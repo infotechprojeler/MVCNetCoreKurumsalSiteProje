@@ -1,3 +1,4 @@
+using Data;
 using Microsoft.AspNetCore.Mvc;
 using MVCNetCoreKurumsalSiteProje.Models;
 using System.Diagnostics;
@@ -6,16 +7,22 @@ namespace MVCNetCoreKurumsalSiteProje.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly DatabaseContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(DatabaseContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var model = new HomePageViewModel()
+            {
+                Slides = _context.Slides.ToList(),
+                Categories = _context.Categories.ToList(),
+                Posts = _context.Posts.Where(p => p.IsActive && p.IsHome).ToList()
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()
