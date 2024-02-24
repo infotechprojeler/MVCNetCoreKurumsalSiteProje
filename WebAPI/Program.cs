@@ -21,6 +21,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles(); // resim vb dosyalarý api de saklamak için
+
 app.UseAuthorization();
 
 app.MapControllers();

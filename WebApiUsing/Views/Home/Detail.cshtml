@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Ürün Detayı";
+}
+
+<div class="row">
+    <div id="urunResmi" class="col-md-5"></div>
+    <div id="detail" class="col-md-7"></div>
+</div>
+<div class="row">
+    <div id="images" class="row row-cols-2"></div>
+</div>
+
+@section Scripts {
+    <script>
+        fetch("https://dummyjson.com/products/@ViewContext.RouteData.Values["id"]") // fetch metodunu bu şekilde istek atacağımız sunucuyu parametre vererek kullanıyoruz
+            .then(response => response.json()) // bu satır apiden dönen sonucu json a dönüştürür
+            .then(data => {
+                // console.log(data) // api den dönen nesneyi tarayıcı konsoluna bastır
+                console.log(data) // api den dönen ürün listesini tarayıcı konsoluna bastır
+                document.getElementById("urunResmi").innerHTML = `<img src="${data.thumbnail}" alt="" class="img-thumbnail" />`
+                let div = document.getElementById("detail") // ekrandaki products id li elemeti seç
+                div.innerHTML = `<h1>${data.brand} ${data.title}</h1>
+                                <h2>Kategori : ${data.category}</h2>
+                                <h3>Fiyat : ${data.price} ₺</h3>
+                                <h3>Stok Miktarı : ${data.stock}</h3>
+                                <p>${data.description}</p>
+                                `
+                 
+                    data.images.forEach(p => { // gelen data içindeki products listesinde forEach ile dön
+                    // listedeki her bir ürünü
+                    document.getElementById("images").innerHTML += `<div><a href="${p}" class="nav-link link-secondary"><img src="${p}" alt="" height="222" /></a></div>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
+                }) /**/
+            })
+            .catch(error => {
+                // eğer api isteğinde hata oluşursa burada yakalayıp kullanabiliriz
+                console.warn(error)
+                alert(error + " Hatası Oluştu!")
+                // veya burada db de logs tablosu yapıp kaydedebiliriz.
+            })
+    </script>
+}

@@ -25,27 +25,34 @@ namespace WebAPI.Controllers
 
         // GET api/<CategoriesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Category Get(int id)
         {
-            return "value";
+            return _context.Categories.Find(id);
         }
 
         // POST api/<CategoriesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Category value)
         {
+            _context.Categories.Add(value);
+            _context.SaveChanges();
         }
 
         // PUT api/<CategoriesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] Category value)
         {
+            _context.Categories.Update(value);
+            _context.SaveChanges();
         }
 
         // DELETE api/<CategoriesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var kayit = _context.Categories.Find(id);
+            _context.Categories.Remove(kayit);
+            _context.SaveChanges();
         }
     }
 }

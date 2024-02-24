@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Web Api Kullanımı</h1>
+    <p>
+        Asp.Net core ile web api kullanımı projesi.
+        <br />
+        Bir api yi hem Mvc ile hem de javascript ile kullanabiliriz.
+        <br />
+        Yapmamız gereken api de metotların tipine göre (get,post,put,delete) istek gönderip metodun istediği parametreyi apiye yollamak.
+    </p>
+    <p class="alert alert-danger">
+        <b>Dikkat!</b> Kendi api mizi kullanabilmemiz için hem api projesinin hem de bu projenin çalışması gerekir.
+        <br />
+        Bunun için solution a sağ tıklayıp (configure startup projects menüsünden) başlangıç projesi olarak her 2 projeyi seçmeliyiz!
+    </p>
+    <div id="products" class="row row-cols-3"></div>
+</div>
+
+@section Scripts{
+    <script>
+        // Herhangi bir api yi kullanabilmek için javascript fetchapi kullanarak işlemleri sağlayabiliriz.
+        // alert("Merhaba") // alert kullanıcıya bilgi vermemizi sağlayan mesaj verme penceresini çıkaran metot
+        fetch("https://dummyjson.com/products") // fetch metodunu bu şekilde istek atacağımız sunucuyu parametre vererek kullanıyoruz
+        .then(response => response.json()) // bu satır apiden dönen sonucu json a dönüştürür
+            .then(data => {
+                // console.log(data) // api den dönen nesneyi tarayıcı konsoluna bastır
+                 console.log(data.products) // api den dönen ürün listesini tarayıcı konsoluna bastır
+                let div = document.getElementById("products") // ekrandaki products id li elemeti seç
+                data.products.forEach(p => { // gelen data içindeki products listesinde forEach ile dön
+                    // listedeki her bir ürünü
+                    div.innerHTML += `<div><a href="/Home/Detail/${p.id}" class="nav-link link-secondary">
+                                <img src="${p.thumbnail}" alt="" height="222" />
+                                                <h4>${p.title} ₺${p.price}</h4>
+                    </a></div>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
+                })
+            })
+            .catch(error => {
+                // eğer api isteğinde hata oluşursa burada yakalayıp kullanabiliriz
+                console.warn(error)
+                alert(error + " Hatası Oluştu!")
+                // veya burada db de logs tablosu yapıp kaydedebiliriz.
+            })
+    </script>
+}
