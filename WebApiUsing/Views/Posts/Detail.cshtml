@@ -1,0 +1,14 @@
+﻿@model Post
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="row">
+    <div class="col-5">
+        <img src="https://localhost:7125/Images/@Model.Image" alt="" class="img-fluid" />
+    </div>
+    <div class="col-7">
+        <h1>@Model.Name</h1>
+        @Model?.Category?.Name
+    </div>
+</div>

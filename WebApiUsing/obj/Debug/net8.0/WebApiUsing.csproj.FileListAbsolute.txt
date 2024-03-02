@@ -224,3 +224,5 @@ C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\b
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\obj\Debug\net8.0\WebApiUsing.csproj.AssemblyReference.cache
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\obj\Debug\net8.0\WebApiUs.4C9E637A.Up2Date
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\bin\Debug\net8.0\Entities.dll
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\bin\Debug\net8.0\Entities.pdb

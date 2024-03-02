@@ -32,6 +32,7 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<Post>> GetAsync(int id)
         {
             var kayit = await _context.Posts.FindAsync(id);
+            //var kayit = await _context.Posts.Include(c => c.Category).FirstOrDefaultAsync(p => p.Id == id); // include yapınca json hatası veriyor!
             if (kayit == null)
             {
                 return NotFound();

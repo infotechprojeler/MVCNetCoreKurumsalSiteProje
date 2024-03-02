@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Entities.Post>
+
+@{
+    ViewData["Title"] = "İçerikler";
+}
+
+<h1>İçerikler</h1>
+
+<div class="row row-cols-3">
+    @foreach (var item in Model)
+    {
+        <div>
+            <a asp-action="Detail" asp-route-id="@item.Id">
+                <img src="https://localhost:7125/Images/@item.Image" alt="Resim Yok" class="img-fluid" />
+                <h5>@item.Name</h5>
+            </a>
+        </div>
+    }
+</div>

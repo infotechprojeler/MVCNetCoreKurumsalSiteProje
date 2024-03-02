@@ -27,12 +27,12 @@ namespace WebApiUsing.Controllers
             return View();
         }
         
-        public IActionResult Products()
+        public IActionResult Posts()
         {
             return View();
         }
 
-        public IActionResult ProductDetail(int? id)
+        public IActionResult PostDetail(int? id)
         {
             if (id is null)
             {

@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "İçerikler";
+}
+
+<h1>İçerikler</h1>
+
+<div id="products" class="row row-cols-3"></div>
+
+@section Scripts {
+    <script>
+        fetch("https://localhost:7125/api/Posts") // fetch metodunu bu şekilde istek atacağımız sunucuyu parametre vererek kullanıyoruz
+            .then(response => response.json()) // bu satır apiden dönen sonucu json a dönüştürür
+            .then(data => {
+                // console.log(data) // api den dönen nesneyi tarayıcı konsoluna bastır
+                console.log(data) // api den dönen ürün listesini tarayıcı konsoluna bastır
+                let div = document.getElementById("products") // ekrandaki products id li elemeti seç
+                data.forEach(p => { // gelen data içindeki products listesinde forEach ile dön
+                    // listedeki her bir ürünü
+                    div.innerHTML += `<div><a href="/Home/PostDetail/${p.id}" class="nav-link link-secondary">
+                                                <img src="https://localhost:7125/Images/${p.image}" alt="" height="222" />
+                                                        <h4>${p.name}</h4>
+                            </a></div>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
+                })/**/
+            })
+            .catch(error => {
+                // eğer api isteğinde hata oluşursa burada yakalayıp kullanabiliriz
+                console.warn(error)
+                alert(error + " Hatası Oluştu!")
+                // veya burada db de logs tablosu yapıp kaydedebiliriz.
+            })
+    </script>
+}
