@@ -5,6 +5,146 @@
       "PackagePath": "staticwebassets\\WebApiUsing.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\401.html",
+      "PackagePath": "staticwebassets\\AdminTema\\401.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\404.html",
+      "PackagePath": "staticwebassets\\AdminTema\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\500.html",
+      "PackagePath": "staticwebassets\\AdminTema\\500.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\AdminTema\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\charts.html",
+      "PackagePath": "staticwebassets\\AdminTema\\charts.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\css\\styles.css",
+      "PackagePath": "staticwebassets\\AdminTema\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\index.html",
+      "PackagePath": "staticwebassets\\AdminTema\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\AdminTema\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\AdminTema\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\AdminTema\\layout-sidenav-light.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\layout-static.html",
+      "PackagePath": "staticwebassets\\AdminTema\\layout-static.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\login.html",
+      "PackagePath": "staticwebassets\\AdminTema\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\password.html",
+      "PackagePath": "staticwebassets\\AdminTema\\password.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\register.html",
+      "PackagePath": "staticwebassets\\AdminTema\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\AdminTema\\tables.html",
+      "PackagePath": "staticwebassets\\AdminTema\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\aspnetcoemvc16.png",
+      "PackagePath": "staticwebassets\\Images\\aspnetcoemvc16.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\bgVideo.jpg",
+      "PackagePath": "staticwebassets\\Images\\bgVideo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\bridge-19513_1280.jpg",
+      "PackagePath": "staticwebassets\\Images\\bridge-19513_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\google.png",
+      "PackagePath": "staticwebassets\\Images\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\infotechacademy_python_veribilimi_egitimi26.png",
+      "PackagePath": "staticwebassets\\Images\\infotechacademy_python_veribilimi_egitimi26.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\logoInfotechAcademy.png",
+      "PackagePath": "staticwebassets\\Images\\logoInfotechAcademy.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\net-core-eticaret-gelistirme-egitimi29.png",
+      "PackagePath": "staticwebassets\\Images\\net-core-eticaret-gelistirme-egitimi29.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\react_native_kursu_egitimi_infotechacademy25.png",
+      "PackagePath": "staticwebassets\\Images\\react_native_kursu_egitimi_infotechacademy25.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\sistem_uzmanligi_egittimi.png",
+      "PackagePath": "staticwebassets\\Images\\sistem_uzmanligi_egittimi.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\slide-1.png",
+      "PackagePath": "staticwebassets\\Images\\slide-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\slide-2.png",
+      "PackagePath": "staticwebassets\\Images\\slide-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\slide-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\unsplash-photo-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\unsplash-photo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\unsplash-photo-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\unsplash-photo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\Images\\unsplash-photo-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\unsplash-photo-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

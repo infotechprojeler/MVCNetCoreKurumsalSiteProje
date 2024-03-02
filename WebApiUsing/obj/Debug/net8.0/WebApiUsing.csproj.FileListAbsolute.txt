@@ -226,3 +226,4 @@ C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\o
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\obj\Debug\net8.0\WebApiUs.4C9E637A.Up2Date
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\bin\Debug\net8.0\Entities.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\bin\Debug\net8.0\Entities.pdb
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\WebApiUsing\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css

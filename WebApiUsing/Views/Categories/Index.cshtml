@@ -21,52 +21,68 @@
 </table>
 
 <input type="hidden" id="Id" />
-<input type="hidden" id="ImageName" />
 
 <hr />
 
-<table class="table">
-    <tr>
-        <td>Kategori Adı</td>
-        <td>
-            <input type="text" value="" id="Name" name="Name" class="form-control" />
-        </td>
-    </tr>
-    <tr>
-        <td>Açıklama</td>
-        <td>
-            <textarea id="Description" name="Description" rows="5" class="form-control"></textarea>
-        </td>
-    </tr>
-    <tr>
-        <td>Resim</td>
-        <td>
-            <input type="file" id="Image" name="Image" />
-        </td>
-    </tr>
-    <tr>
-        <td>Durum</td>
-        <td>
-            <input type="checkbox" id="IsActive" name="IsActive" value="" />
-            <label for="IsActive">Aktif</label>
-        </td>
-    </tr>
-    <tr>
-        <td>Anasayfa</td>
-        <td>
-            <input type="checkbox" id="IsHome" name="IsHome" value="" />
-            <label for="IsHome">Göster</label>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <button class="btn btn-primary" onclick="Add()">Ekle</button>
-            <button class="btn btn-success" onclick="Update()">Güncelle</button>
-        </td>
-    </tr>
-</table>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Yeni Kayıt
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <tr>
+                        <td>Kategori Adı</td>
+                        <td>
+                            <input type="text" value="" id="Name" name="Name" class="form-control" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Açıklama</td>
+                        <td>
+                            <textarea id="Description" name="Description" rows="5" class="form-control"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Resim</td>
+                        <td>
+                            <input type="file" id="Image" name="Image" />
+                            <div id="resim"></div>
+                            <input type="hidden" id="ImageName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Durum</td>
+                        <td>
+                            <input type="checkbox" id="IsActive" name="IsActive" value="" />
+                            <label for="IsActive">Aktif</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Anasayfa</td>
+                        <td>
+                            <input type="checkbox" id="IsHome" name="IsHome" value="" />
+                            <label for="IsHome">Göster</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                <button class="btn btn-primary" onclick="Add()">Ekle</button>
+                <button class="btn btn-success" onclick="Update()">Güncelle</button>
+            </div>
+        </div>
+    </div>
+</div>
 @section Scripts {
     <script>
         function GetAll() {
@@ -85,7 +101,7 @@
                                             <td>${p.isActive}</td>
                                             <td>${p.isHome}</td>
                                             <td>
-                                                <input type="button" name="edit" value="Düzenle" class="btn btn-primary" onclick="Edit(${p.id})" />
+                                                <input type="button" name="edit" value="Düzenle" class="btn btn-primary" onclick="Edit(${p.id})" data-bs-toggle="modal" data-bs-target="#exampleModal" />
                                                 <input type="button" name="delete" value="Sil" class="btn btn-danger" onclick="Delete(${p.id})" />
                                             </td>
                                            </tr>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
@@ -144,12 +160,29 @@
                     document.getElementById("Name").value = data.name
                     document.getElementById("Description").value = data.description
                     document.getElementById("ImageName").value = data.image
+                    document.getElementById("resim").innerHTML = `<img src="https://localhost:7125/Images/${data.image}" alt = "" height = "34" />`
                     document.getElementById("IsActive").checked = data.isActive
                     document.getElementById("IsHome").checked = data.isHome
                 })
         }
         function Update() {
+            if (!document.getElementById("Name").value) { // eğer kategori adı boşsa
+                alert("Kategori Adı Boş Geçilemez!") // uyarı ver
+                return false; // geri dön
+            }
+            // dosya yükleme
+            var formData = new FormData();
+            var fileField = document.querySelector("input[type='file']"); // dosya yükleme elementini bul
+            formData.append("formFile", fileField.files[0]);
+
             var id = document.getElementById("Id").value
+            var resim = document.getElementById("ImageName").value
+
+            // eğer güncellemede yeni dosya seçilmişse
+            if (fileField.files[0]) {
+                resim = formData.get("formFile").name
+            }
+
             fetch("https://localhost:7125/api/categories/" + id, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
@@ -157,13 +190,14 @@
                     Id: id,
                     Name: document.getElementById("Name").value,
                     Description: document.getElementById("Description").value,
-                    Image: document.getElementById("Image").value,
+                    Image: resim, // document.getElementById("Image").value,
                     IsActive: document.getElementById("IsActive").checked,
                     IsHome: document.getElementById("IsHome").checked
                 }) // body bitiş
             }) // fetch bitiş
                 .then((response) => {
                     if (response.ok) { // eğer işlem sonucu başarılıysa sunucudan ok cevabı geliyor
+                        upload(formData);
                         location.reload(); // sayfayı yenile
                     }
                     else {
@@ -176,23 +210,25 @@
                 })
         }
         function Delete(id) {
-            fetch("https://localhost:7125/api/categories/" + id, {
-                method: "DELETE",
-                headers: { "Content-Type": "application/json" }
-                // body bitiş
-            }) // fetch bitiş
-                .then((response) => {
-                    if (response.ok) { // eğer işlem sonucu başarılıysa sunucudan ok cevabı geliyor
-                        location.reload(); // sayfayı yenile
-                    }
-                    else {
-                        throw new Error("İşlem Başarısız Oldu!") // hata fırlat
-                    }
-                }) // then bitiş
-                .catch(error => {
-                    console.error("Hata Oluştu!", error)
-                    alert("Hata Oluştu!")
-                })
+            if (confirm("Kaydı Silmek İstiyor Musunuz?")) {
+                fetch("https://localhost:7125/api/categories/" + id, {
+                    method: "DELETE",
+                    headers: { "Content-Type": "application/json" }
+                    // body bitiş
+                }) // fetch bitiş
+                    .then((response) => {
+                        if (response.ok) { // eğer işlem sonucu başarılıysa sunucudan ok cevabı geliyor
+                            location.reload(); // sayfayı yenile
+                        }
+                        else {
+                            throw new Error("İşlem Başarısız Oldu!") // hata fırlat
+                        }
+                    }) // then bitiş
+                    .catch(error => {
+                        console.error("Hata Oluştu!", error)
+                        alert("Hata Oluştu!")
+                    })
+            }
         }
 
         // Js ile apiye resim yükleme

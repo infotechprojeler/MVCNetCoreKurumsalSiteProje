@@ -273,3 +273,4 @@ C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKur
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\ref\MVCNetCoreKurumsalSiteProje.dll
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_AdminLayout.cshtml.rz.scp.css
 C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\obj\Debug\net8.0\MVCNetCo.DF5B21A2.Up2Date
+C:\Users\Infotech Academy\source\repos\MVCNetCoreKurumsalSiteProje\MVCNetCoreKurumsalSite\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll

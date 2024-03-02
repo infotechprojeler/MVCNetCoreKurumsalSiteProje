@@ -1,10 +1,5 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data
 {
@@ -16,9 +11,10 @@ namespace Data
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<Slide> Slides { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
         // dbsetleri hazırladıktan sonra burada enable-migrations yapmıyoruz!!!
 
-        // Veritabanı yoksa aşağıdaki package manager console u açıyoruz
+        // Veritabanı yoksa aşağıdaki package manager console u açıyoruz (Tools > Nuget package manager > package manager console)
         // Önce DefaultProject kısmından Data katamanını seçiyoruz
         // Sonra add-migration InitialCreate komutunu yazıp enter a basıp işlemi bekliyoruz.
         // Sonra aynı alana yine data katmanı seçiliyken update-database diyerek veritabanını oluşturuyoruz
