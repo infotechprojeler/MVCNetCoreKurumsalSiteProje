@@ -5,7 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddHttpClient(); // c# ile apiye istek göndermek için gerekli servis
+builder.Services.AddHttpClient();
+//builder.Services.AddHttpClient("", x => { x.BaseAddress = new Uri(""); }); // c# ile apiye istek göndermek için gerekli servis
 
 builder.Services.AddSession();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>

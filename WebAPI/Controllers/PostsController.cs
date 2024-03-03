@@ -2,8 +2,6 @@
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using WebAPI.Araclar;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -42,9 +40,9 @@ namespace WebAPI.Controllers
 
         // POST api/<PostsController>
         [HttpPost]
-        public async Task<ActionResult<Post>> PostAsync([FromBody] Post value, IFormFile? Image)
+        public async Task<ActionResult<Post>> PostAsync([FromBody] Post value)
         {
-            value.Image = await FileHelper.FileLoaderAsync(Image);
+            // value.Image = await FileHelper.FileLoaderAsync(Image);
             await _context.Posts.AddAsync(value);
             await _context.SaveChangesAsync();
             return Ok(value); // ok metodu işlemin başarılı olduğu bilgisini döndürür
@@ -52,12 +50,12 @@ namespace WebAPI.Controllers
 
         // PUT api/<PostsController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<Post>> Put(int id, [FromBody] Post value, IFormFile? Image)
+        public async Task<ActionResult<Post>> Put(int id, [FromBody] Post value) //, IFormFile? Image 
         {
-            if (Image is not null)
-            {
-                value.Image = await FileHelper.FileLoaderAsync(Image);
-            }
+            //if (Image is not null)
+            //{
+            //    value.Image = await FileHelper.FileLoaderAsync(Image);
+            //}
             _context.Posts.Update(value);
             await _context.SaveChangesAsync();
             return Ok(value);

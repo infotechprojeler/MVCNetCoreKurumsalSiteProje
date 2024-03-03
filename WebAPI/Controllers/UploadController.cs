@@ -9,7 +9,7 @@ namespace WebAPI.Controllers
     {
         // dosya yükleme işini merkezi bir controller da toplama
         [HttpPost]
-        public async Task<IActionResult> Upload([FromForm] IFormFile formFile, string path = "")
+        public async Task<IActionResult> Upload([FromForm] IFormFile? formFile, string path = "")
         {
             var result = await FileHelper.FileLoaderAsync(formFile, path);
             if (string.IsNullOrEmpty(result))

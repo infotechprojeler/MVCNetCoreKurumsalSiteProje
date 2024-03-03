@@ -265,11 +265,6 @@
         "Name": "value",
         "Type": "Entities.Post",
         "IsRequired": true
-      },
-      {
-        "Name": "Image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -327,11 +322,6 @@
         "Name": "value",
         "Type": "Entities.Post",
         "IsRequired": true
-      },
-      {
-        "Name": "Image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -503,11 +493,6 @@
         "Name": "value",
         "Type": "Entities.Slide",
         "IsRequired": true
-      },
-      {
-        "Name": "Image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -565,11 +550,6 @@
         "Name": "value",
         "Type": "Entities.Slide",
         "IsRequired": true
-      },
-      {
-        "Name": "Image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -678,6 +658,22 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.UsersController",
+    "Method": "PutUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Entities.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsersController",
     "Method": "PostUser",
     "RelativePath": "api/Users",
     "HttpMethod": "POST",
@@ -727,27 +723,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.UsersController",
-    "Method": "PutUser",
-    "RelativePath": "api/Users/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "user",
-        "Type": "Entities.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "WebAPI.Controllers.UsersController",

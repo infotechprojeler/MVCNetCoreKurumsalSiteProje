@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\views\\home\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\home\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\tools\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\tools\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T11:21:38.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FileHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Tools\\FileHelper.cs",
-              "RelativeDocumentMoniker": "WebApiUsing\\Tools\\FileHelper.cs",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Tools\\FileHelper.cs",
-              "RelativeToolTip": "WebApiUsing\\Tools\\FileHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T11:02:48.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApiUsing\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T10:28:17.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T10:26:49.707Z",
+              "WhenOpened": "2024-03-03T07:06:29.874Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "WebApiUsing\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "WebApiUsing\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAYwHEAAABHAAAA",
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "WebApiUsing\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "WebApiUsing\\Controllers\\PostsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T10:26:12.953Z",
+              "WhenOpened": "2024-03-03T11:52:04.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "WebApiUsing\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T10:25:27.558Z",
+              "WhenOpened": "2024-03-03T11:51:57.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Posts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Home\\Posts.cshtml",
+              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Home\\Posts.cshtml",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Home\\Posts.cshtml",
+              "RelativeToolTip": "WebApiUsing\\Views\\Home\\Posts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T11:51:48.795Z",
               "EditorCaption": ""
             }
           ]

@@ -16,5 +16,15 @@
 
             return dosyaAdi;
         }
+        public static bool FileRemover(string fileName, string filePath = "/wwwroot/Images/")
+        {
+            string directory = Directory.GetCurrentDirectory() + filePath + fileName; // dosyayı sileceğimiz konum
+            if (Directory.Exists(directory)) // eğer belirtilen dizinde bir dosya varsa
+            {
+                File.Delete(directory); // verilen dizindeki dosyayı sil
+                return true; // işlem sonucunun başarılı olduğunu dönüyoruz
+            }
+            return false; // buraya geldiyse dosya silinememiştir
+        }
     }
 }
