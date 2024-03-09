@@ -8,5 +8,9 @@ namespace WebApiUsing.Controllers
         {
             return View();
         }
+        public IActionResult JqueryCrud()
+        {
+            return View();
+        }
     }
 }

@@ -88,7 +88,7 @@
                     <tr>
                         <td>Kategori</td>
                         <td>
-                            <select class="form-select">
+                            <select id="Kategoriler" class="form-select">
                                 <option value="0">Seçiniz</option>
                             </select>
                         </td>
@@ -105,6 +105,29 @@
 </div>
 @section Scripts {
     <script>
+        function Kategoriler() {
+            fetch("https://localhost:7125/api/categories")
+                .then(response => response.json())
+                .then(data => {
+                    // console.log(data) // api den dönen nesneyi tarayıcı konsoluna bastır
+                    console.log(data) // api den dönen ürün listesini tarayıcı konsoluna bastır
+                    let element = document.getElementById("Kategoriler") // ekrandaki products id li elemeti seç
+                    data.forEach(item => { // gelen data içindeki products listesinde forEach ile dön
+                        // listedeki her bir ürünü
+                        let option = new Option(item.name, item.id); // select içine eklemek için yeni bir option oluşturup değerlerini gelen kategoriden dolduruyoruz.
+                        element.add(option); // seçtiğimiz select elementine option ı ekle
+                    })/**/
+                })
+                .catch(error => {
+                    // eğer api isteğinde hata oluşursa burada yakalayıp kullanabiliriz
+                    console.warn(error)
+                    alert(error + " Hatası Oluştu!")
+                    // veya burada db de logs tablosu yapıp kaydedebiliriz.
+                })
+        }
+
+        Kategoriler(); // kategoriler selectini doldurmak için çağırıyoruz.
+
         function GetAll() {
             fetch("https://localhost:7125/api/products") // fetch metodunu bu şekilde istek atacağımız sunucuyu parametre vererek kullanıyoruz
                 .then(response => response.json()) // bu satır apiden dönen sonucu json a dönüştürür
@@ -140,16 +163,24 @@
         }
         GetAll();
         function Add() {
-            if (!document.getElementById("Name").value) { // eğer kategori adı boşsa
-                alert("Kategori Adı Boş Geçilemez!") // uyarı ver
+            if (!document.getElementById("Name").value) {
+                alert("Ürün Adı Boş Geçilemez!") // uyarı ver
                 return false; // geri dön
+            }
+            if (!document.getElementById("Stock").value) {
+                alert("Stok Boş Geçilemez!") // uyarı ver
+                return false;
+            }
+            if (!document.getElementById("Price").value) {
+                alert("Ürün Fiyatı Boş Geçilemez!") // uyarı ver
+                return false;
             }
             // dosya yükleme
             var formData = new FormData();
             var fileField = document.querySelector("input[type='file']"); // dosya yükleme elementini bul
             formData.append("formFile", fileField.files[0]);
 
-            fetch("https://localhost:7125/api/categories", {
+            fetch("https://localhost:7125/api/products/", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -157,7 +188,10 @@
                     Description: document.getElementById("Description").value,
                     Image: formData.get("formFile").name, // document.getElementById("Image").value,
                     IsActive: document.getElementById("IsActive").checked,
-                    IsHome: document.getElementById("IsHome").checked
+                    IsHome: document.getElementById("IsHome").checked,
+                    Stock: document.getElementById("Stock").value,
+                    Price: document.getElementById("Price").value,
+                    CategoryId: document.getElementById("Kategoriler").value
                 }) // body bitiş
             }) // fetch bitiş
                 .then((response) => {
@@ -175,7 +209,7 @@
                 })
         }
         function Edit(id) {
-            fetch("https://localhost:7125/api/categories/" + id)
+            fetch("https://localhost:7125/api/products/" + id)
                 .then(response => response.json())
                 .then(data => {
                     console.log(data)
@@ -187,12 +221,23 @@
                     document.getElementById("resim").innerHTML = `<img src="https://localhost:7125/Images/${data.image}" alt = "" height = "34" />`
                     document.getElementById("IsActive").checked = data.isActive
                     document.getElementById("IsHome").checked = data.isHome
+                    document.getElementById("Stock").value = data.stock
+                    document.getElementById("Price").value = data.price
+                    document.getElementById("Kategoriler").value = data.categoryId
                 })
         }
         function Update() {
             if (!document.getElementById("Name").value) { // eğer kategori adı boşsa
-                alert("Kategori Adı Boş Geçilemez!") // uyarı ver
+                alert("Ürün Adı Boş Geçilemez!") // uyarı ver
                 return false; // geri dön
+            }
+            if (!document.getElementById("Stock").value) {
+                alert("Stok Boş Geçilemez!") // uyarı ver
+                return false;
+            }
+            if (!document.getElementById("Price").value) {
+                alert("Ürün Fiyatı Boş Geçilemez!") // uyarı ver
+                return false;
             }
             // dosya yükleme
             var formData = new FormData();
@@ -207,7 +252,7 @@
                 resim = formData.get("formFile").name
             }
 
-            fetch("https://localhost:7125/api/categories/" + id, {
+            fetch("https://localhost:7125/api/products/" + id, {
                 method: "PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -216,7 +261,10 @@
                     Description: document.getElementById("Description").value,
                     Image: resim, // document.getElementById("Image").value,
                     IsActive: document.getElementById("IsActive").checked,
-                    IsHome: document.getElementById("IsHome").checked
+                    IsHome: document.getElementById("IsHome").checked,
+                    Stock: document.getElementById("Stock").value,
+                    Price: document.getElementById("Price").value,
+                    CategoryId: document.getElementById("Kategoriler").value
                 }) // body bitiş
             }) // fetch bitiş
                 .then((response) => {
@@ -235,7 +283,7 @@
         }
         function Delete(id) {
             if (confirm("Kaydı Silmek İstiyor Musunuz?")) {
-                fetch("https://localhost:7125/api/categories/" + id, {
+                fetch("https://localhost:7125/api/products/" + id, {
                     method: "DELETE",
                     headers: { "Content-Type": "application/json" }
                     // body bitiş
