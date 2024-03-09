@@ -266,6 +266,25 @@
             })
         }
 
+        function Delete(id) {
+            if (confirm("Kaydı Silmek İstiyor Musunuz?")) {
+                $.ajax({
+                    method: "DELETE",
+                    headers: { "Content-Type": "application/json" },
+                    url: "https://localhost:7125/api/products/" + id,
+                    success: function () {
+                        // debugger; javascript de kodu burada durdurup incelemek için
+                        location.reload(); // sayfayı yenile
+                    },
+                    error: function (err) {
+                        console.log(err)
+                        alert("Hata Oluştu!")
+                    }
+                });
+                
+            }
+        }
+
         // Js ile apiye resim yükleme
         async function upload(formData) {
             try {

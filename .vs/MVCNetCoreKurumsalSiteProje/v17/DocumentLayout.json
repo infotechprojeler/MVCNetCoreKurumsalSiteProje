@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\webapiusing\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,8 +39,11 @@
               "ViewState": "AQIAABYAAAAAAAAAAAAYwCcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-03T07:06:29.874Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -50,7 +53,7 @@
               "RelativeDocumentMoniker": "WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
               "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
               "RelativeToolTip": "WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAYwM8AAAArAAAA",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAYwAwBAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-09T09:12:33.828Z",
               "EditorCaption": ""
@@ -65,12 +68,7 @@
               "RelativeToolTip": "WebApiUsing\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:10:54.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-03-09T09:10:54.954Z"
             },
             {
               "$type": "Document",
@@ -80,7 +78,7 @@
               "RelativeDocumentMoniker": "WebApiUsing\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "WebApiUsing\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAPUAAAAAAAAAAAAAAAIBAAAbAAAA",
+              "ViewState": "AQIAABsBAAAAAAAAAAAAAC8BAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-09T07:26:37.758Z",
               "EditorCaption": ""
