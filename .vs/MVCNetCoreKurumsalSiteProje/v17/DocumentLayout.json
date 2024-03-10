@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\webapiusing\\views\\products\\jquerycrud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\products\\jquerycrud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\mvcnetcorekurumsalsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5CF9D29-8D45-4F8E-97AB-3BB13BBE3104}|MVCNetCoreKurumsalSite\\MVCNetCoreKurumsalSiteProje.csproj|solutionrelative:mvcnetcorekurumsalsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\webapiusing\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\webapiusing\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|solutionrelative:service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\webapiusing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8A0306B6-143B-46FC-A7B9-4ADE404E816E}|WebApiUsing\\WebApiUsing.csproj|solutionrelative:webapiusing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|solutionrelative:service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|c:\\users\\infotech academy\\source\\repos\\mvcnetcorekurumsalsiteproje\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D2926-E427-4D49-B278-214162134D46}|Service\\Service.csproj|solutionrelative:service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwCcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-03T07:06:29.874Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JqueryCrud.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Views\\Products\\JqueryCrud.cshtml",
-              "ViewState": "AQIAAAIBAAAAAAAAAAAYwAwBAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T09:12:33.828Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Program.cs",
+              "RelativeDocumentMoniker": "MVCNetCoreKurumsalSite\\Program.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\Program.cs",
+              "RelativeToolTip": "MVCNetCoreKurumsalSite\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T11:56:19.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebApiUsing\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebApiUsing\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\CategoryService.cs",
+              "RelativeToolTip": "Service\\CategoryService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:10:54.954Z"
+              "WhenOpened": "2024-03-10T11:46:19.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApiUsing\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\WebApiUsing\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "WebApiUsing\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAABsBAAAAAAAAAAAAAC8BAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T07:26:37.758Z",
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "Service\\Service.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\Service.cs",
+              "RelativeToolTip": "Service\\Service.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAIwDMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T11:39:17.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\IService.cs",
+              "RelativeDocumentMoniker": "Service\\IService.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\IService.cs",
+              "RelativeToolTip": "Service\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T11:31:10.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Service\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\Service\\ICategoryService.cs",
+              "RelativeToolTip": "Service\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T11:31:09.302Z",
               "EditorCaption": ""
             }
           ]

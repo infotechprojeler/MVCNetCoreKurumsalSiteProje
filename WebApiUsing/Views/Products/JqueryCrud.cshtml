@@ -7,6 +7,7 @@
 
 <table id="Urunler" class="table table-striped table-hover">
     <tr>
+        <th></th>
         <th>Id</th>
         <th>Ürün Adı</th>
         <th>Eklenme Tarihi</th>
@@ -24,6 +25,10 @@
 <input type="hidden" id="Id" />
 
 <hr />
+
+<button type="button" id="btnSecilileriSil" class="btn btn-warning">
+    Seçilenleri Sil
+</button>
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -126,21 +131,22 @@
                 let div = document.getElementById("list") // ekrandaki products id li elemeti seç
                 data.forEach(p => { // gelen data içindeki products listesinde forEach ile dön
                     // listedeki her bir ürünü
-                    div.innerHTML += `<tr>
-                                                                            <td>${p.id}</td>
-                                                                            <td>${p.name}</td>
-                                                                                    <td>${p.createDate}</td>
-                                                                    <td><img src="https://localhost:7125/Images/${p.image}" alt="" height="34" /></td>
-                                                                            <td>${p.isActive}</td>
-                                                                            <td>${p.isHome}</td>
-                                                                            <td>${p.stock}</td>
-                                                                            <td>${p.price}</td>
-                                                                            <td>${p.category.name}</td>
-                                                                            <td>
-                                                                                <input type="button" name="edit" value="Düzenle" class="btn btn-primary" onclick="Edit(${p.id})" data-bs-toggle="modal" data-bs-target="#exampleModal" />
-                                                                                <input type="button" name="delete" value="Sil" class="btn btn-danger" onclick="Delete(${p.id})" />
-                                                                            </td>
-                                                                           </tr>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
+                    div.innerHTML += `<tr data-id="${p.id}">
+                                                <td><input type="checkbox" name="sec" class="selectRow" /></td>
+                                                <td>${p.id}</td>
+                                                <td>${p.name}</td>
+                                                <td class="text-truncate">${p.createDate}</td>
+                                                <td><img src="https://localhost:7125/Images/${p.image}" alt="" height="34" /></td>
+        <td>${p.isActive}</td>
+        <td>${p.isHome}</td>
+        <td>${p.stock}</td>
+        <td>${p.price}</td>
+                <td class="text-truncate">${p.category.name}</td>
+                <td class="text-truncate">
+                    <input type="button" name="edit" value="Düzenle" class="btn btn-primary" onclick="Edit(${p.id})" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                                                                                                <input type="button" name="delete" value="Sil" class="btn btn-danger" onclick="Delete(${p.id})" />
+                                                                                            </td>
+                                                                                           </tr>` // yatay tırnak  klavyeden ctrl + alt + , e basarak açılıyor
                 }) // table doldurma bitiş
             })
         }
@@ -267,22 +273,19 @@
         }
 
         function Delete(id) {
-            if (confirm("Kaydı Silmek İstiyor Musunuz?")) {
-                $.ajax({
-                    method: "DELETE",
-                    headers: { "Content-Type": "application/json" },
-                    url: "https://localhost:7125/api/products/" + id,
-                    success: function () {
-                        // debugger; javascript de kodu burada durdurup incelemek için
-                        location.reload(); // sayfayı yenile
-                    },
-                    error: function (err) {
-                        console.log(err)
-                        alert("Hata Oluştu!")
-                    }
-                });
-                
-            }
+            $.ajax({
+                method: "DELETE",
+                headers: { "Content-Type": "application/json" },
+                url: "https://localhost:7125/api/products/" + id,
+                success: function () {
+                    // debugger; javascript de kodu burada durdurup incelemek için
+                    location.reload(); // sayfayı yenile
+                },
+                error: function (err) {
+                    console.log(err)
+                    alert("Hata Oluştu!")
+                }
+            });
         }
 
         // Js ile apiye resim yükleme
@@ -299,5 +302,35 @@
                 console.log(error);
             }
         }
+
+        $(document).ready(function () {
+            // checkbox seçildiğinde çalışacak işlem
+            $(".selectRow").on("change", function () {
+
+                // console.log($(this));
+
+                if ($(this).is(":checked")) {
+                    $(this).closest("tr").addClass("table-danger");
+                }
+                else {
+                    $(this).closest("tr").removeClass("table-danger");
+                }
+            }); // satır seçme bitiş
+
+            // $("#btnSecilileriSil").on("click", function () {
+            //     alert("Handler for `click` called.");
+            // });
+
+            $("#btnSecilileriSil").on("click", function () {
+                if (confirm("Seçilen Kayıtları Silmek İstediğinize Emin Misiniz?")) {
+                    $(".table-danger").each(function () {
+                        var dataId = $(this).data("id");
+                        console.warn(dataId); // seçili kayıtları konsola yaz
+                        Delete(dataId);
+                    })
+                }
+            })
+
+        })
     </script>
 }

@@ -25,9 +25,18 @@
                 <label asp-for="Image" class="control-label"></label>
                 <input asp-for="Image" class="form-control" type="file" />
                 <span asp-validation-for="Image" class="text-danger"></span>
-                <a href="/Images/@Model.Image" title="@Model.Image">
-                    <img src="/Images/@Model.Image" alt="" height="50" />
-                </a>
+                
+                @if (Model.Image is not null && !string.IsNullOrEmpty(Model.Image))
+                {
+                    <a href="/Images/@Model.Image" title="@Model.Image">
+                        <img src="/Images/@Model.Image" alt="" height="50" />
+                    </a>
+
+                    @Html.CheckBox("cbResmiSil")
+                    <label for="cbResmiSil" class="control-label">
+                        Resmi Sil
+                    </label>
+                }
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">

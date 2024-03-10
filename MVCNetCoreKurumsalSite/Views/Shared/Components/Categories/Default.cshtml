@@ -25,6 +25,20 @@
                     <li><a class="dropdown-item" asp-controller="Posts" asp-action="Index">Tüm Eğitimlerimiz</a></li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a class="nav-link px-2 link-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ürünlerimiz
+                </a>
+
+                <ul class="dropdown-menu">
+                    @foreach (var item in Model)
+                    {
+                        <li><a class="dropdown-item" href="/Products/Index/@item.Id">@item.Name</a></li>
+                    }
+                    @* <li><a class="dropdown-item" href="/Posts">Tüm Eğitimlerimiz</a></li> *@
+                    <li><a class="dropdown-item" asp-controller="Posts" asp-action="Index">Tüm Eğitimlerimiz</a></li>
+                </ul>
+            </li>
             <li><a href="#" class="nav-link px-2 link-secondary">Sık Sorulan Sorular</a></li>
             <li><a href="/iletisim" class="nav-link px-2 link-secondary">İletişim</a></li>
         </ul>

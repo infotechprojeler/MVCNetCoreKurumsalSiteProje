@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Data;
@@ -91,7 +87,7 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
         // POST: Admin/Products/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Product product, IFormFile? Image)
+        public async Task<IActionResult> Edit(int id, Product product, IFormFile? Image, bool cbResmiSil = false)
         {
             if (id != product.Id)
             {
@@ -102,6 +98,10 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (cbResmiSil == true)
+                    {
+                        product.Image = string.Empty;
+                    }
                     if (Image is not null)
                     {
                         product.Image = await FileHelper.FileLoaderAsync(Image);

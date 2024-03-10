@@ -18,5 +18,6 @@ namespace Entities
         [Display(Name = "Eklenme Tarihi"), ScaffoldColumn(false)] // ScaffoldColumn(false) özelliği oluşturulacak view ekranlarında bu alanı oluşturma demektir.
         public DateTime? CreateDate { get; set; } = DateTime.Now;
         public virtual List<Post>? Posts { get; set; }
+        public virtual List<Product>? Products { get; set; }
     }
 }

@@ -48,7 +48,9 @@
                     @Html.DisplayFor(modelItem => item.CreateDate)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Image)
+                    <a href="/Images/@item.Image" title="Resmi İncele">
+                       <img src="/Images/@item.Image" alt="@item.Image" height="34" />
+                    </a>
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.IsActive)
@@ -65,7 +67,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Category.Name)
                 </td>
-                <td>
+                <td class="text-truncate">
                     <a class="btn btn-sm btn-success" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
                     <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id">Detay</a> |
                     <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>

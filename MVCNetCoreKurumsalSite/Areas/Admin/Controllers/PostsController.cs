@@ -87,7 +87,7 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
         // POST: Admin/Posts/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Post post, IFormFile? Image)
+        public async Task<IActionResult> Edit(int id, Post post, IFormFile? Image, bool cbResmiSil = false)
         {
             if (id != post.Id)
             {
@@ -98,6 +98,10 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (cbResmiSil == true)
+                    {
+                        post.Image = string.Empty;
+                    }
                     if (Image is not null)
                     {
                         post.Image = await FileHelper.FileLoaderAsync(Image);

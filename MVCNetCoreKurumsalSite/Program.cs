@@ -1,5 +1,6 @@
 using Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     x.LoginPath = "/Admin/Main/Login";
 }); // Cookie based Authentication
 builder.Services.AddDbContext<DatabaseContext>(); // veritabaný iþlemleri için
+
+// kendiz yazdýðýmýz servisi aþaðýdaki þekilde uygulamaya tanýtýyoruz, yoksa çalýþmýyor!!
+builder.Services.AddScoped<ICategoryService, CategoryService>(); // burada uygulamaya þunu belirtiyoruz: Eðer sana ICategoryService den bir nesne kullanýlmak istenirse, git CategoryService sýnýfýndan bir nesne oluþtur ve onu kullanýma sun.
+
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>)); // generic servisimizi bu þekilde ekliyoruz
 
 var app = builder.Build();
 

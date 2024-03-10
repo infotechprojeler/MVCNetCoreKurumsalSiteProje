@@ -1,11 +1,12 @@
 ﻿using Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiUsing.Tools;
 
 namespace WebApiUsing.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class SlidesController : Controller
     {
         private readonly HttpClient _httpClient;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "snB6geQM09/2CWz9u5a15/PToUOl02U2mIjYV/NnA0s=",
+  "Hash": "lJbfLJ8ySWNAdeGi4PWwOGehMfP32SIqwDWn6f6gwIs=",
   "Source": "MVCNetCoreKurumsalSiteProje",
   "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
   "Mode": "Default",
@@ -530,6 +530,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\1200px-LampFlowchart_tr.svg.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/1200px-LampFlowchart_tr.svg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1200px-LampFlowchart_tr.svg.png"
+    },
+    {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\aspnetcoemvc16.png",
       "SourceId": "MVCNetCoreKurumsalSiteProje",
       "SourceType": "Discovered",
@@ -606,6 +625,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\google.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/google.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\google.png"
+    },
+    {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\infotechacademy_python_veribilimi_egitimi26.png",
       "SourceId": "MVCNetCoreKurumsalSiteProje",
       "SourceType": "Discovered",
@@ -680,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\react_native_kursu_egitimi_infotechacademy25.png"
+    },
+    {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\resim3.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/resim3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\resim3.png"
     },
     {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\sistem_uzmanligi_egittimi.png",
