@@ -7,7 +7,7 @@ namespace Entities
         public int Id { get; set; }
         [Display(Name = "Adı"), StringLength(150), Required(ErrorMessage = "{0} Alanı Boş Geçilemez!")]
         public string Name { get; set; }
-        [Display(Name = "Açıklama"), DataType(DataType.MultilineText)]
+        [Display(Name = "Ürün Açıklaması"), DataType(DataType.MultilineText)]
         public string? Description { get; set; }
         [Display(Name = "Resim"), StringLength(100)]
         public string? Image { get; set; }

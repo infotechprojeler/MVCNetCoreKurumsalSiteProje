@@ -5,6 +5,7 @@ using Data;
 using Entities;
 using Microsoft.AspNetCore.Authorization;
 using MVCNetCoreKurumsalSiteProje.Tools;
+using Service;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
@@ -12,10 +13,12 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
     public class ProductsController : Controller
     {
         private readonly DatabaseContext _context;
+        private readonly IService<Product> _contextProduct;
 
-        public ProductsController(DatabaseContext context)
+        public ProductsController(DatabaseContext context, IService<Product> contextProduct)
         {
             _context = context;
+            _contextProduct = contextProduct;
         }
 
         // GET: Admin/Products
@@ -59,8 +62,14 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 product.Image = await FileHelper.FileLoaderAsync(Image);
-                _context.Add(product);
-                await _context.SaveChangesAsync();
+                // dbcontext ile kayıt
+                //_context.Add(product);
+                //await _context.SaveChangesAsync();
+
+                // service ile kayıt
+                await _contextProduct.AddAsync(product);
+                await _contextProduct.SaveAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
@@ -75,7 +84,10 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
+            // var product = await _context.Products.FindAsync(id);
+
+            // bizim servis ile ürün bulma
+            var product = await _contextProduct.FindAsync(id.Value);
             if (product == null)
             {
                 return NotFound();
@@ -106,8 +118,13 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
                     {
                         product.Image = await FileHelper.FileLoaderAsync(Image);
                     }
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    // dbcontext ile update
+                    //_context.Update(product);
+                    //await _context.SaveChangesAsync();
+
+                    // bizim servis ile update
+                    _contextProduct.Update(product);
+                    await _contextProduct.SaveAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -150,13 +167,14 @@ namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            // var product = await _context.Products.FindAsync(id);
+            var product = await _contextProduct.FindAsync(id); // bizim servis
             if (product != null)
             {
-                _context.Products.Remove(product);
+                _contextProduct.Delete(product);
             }
 
-            await _context.SaveChangesAsync();
+            await _contextProduct.SaveAsync();
             return RedirectToAction(nameof(Index));
         }
 

@@ -5,9 +5,9 @@ namespace Entities
     public class Category : IEntity
     {
         public int Id { get; set; }
-        [Display(Name = "Adı"), StringLength(150), Required]
+        [Display(Name = "Kategori Adı"), StringLength(150), Required]
         public string Name { get; set; }
-        [Display(Name = "Açıklama"), DataType(DataType.MultilineText)]
+        [Display(Name = "Kategori Açıklaması"), DataType(DataType.MultilineText)]
         public string? Description { get; set; }
         [Display(Name = "Resim"), StringLength(150)]
         public string? Image { get; set; }

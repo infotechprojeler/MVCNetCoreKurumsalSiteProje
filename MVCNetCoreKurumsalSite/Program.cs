@@ -31,6 +31,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession(); // Session kullanabilmek için yukarda servis olarak ekledikten sonra burada kullanmak istediðimizi belirtiyoruz
+
 app.UseRouting();
 
 app.UseAuthorization();
