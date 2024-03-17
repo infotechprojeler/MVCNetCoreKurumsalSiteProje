@@ -17,7 +17,7 @@ namespace Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("ProductVersion", "8.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -46,10 +46,19 @@ namespace Data.Migrations
                     b.Property<bool>("IsHome")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsTopMenu")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("OrderNo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ParentId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -248,10 +257,19 @@ namespace Data.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RefreshTokenExpireDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("UserGuid")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -261,13 +279,14 @@ namespace Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2024, 3, 2, 12, 19, 44, 23, DateTimeKind.Local).AddTicks(6937),
+                            CreateDate = new DateTime(2024, 3, 17, 13, 14, 40, 306, DateTimeKind.Local).AddTicks(1541),
                             Email = "admin@mvckurumsal.net",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Admin",
                             Password = "Admin123",
-                            Surname = "User"
+                            Surname = "User",
+                            UserGuid = "fc9375bd-a467-4704-93f4-6054583deb23"
                         });
                 });
 
@@ -285,7 +304,7 @@ namespace Data.Migrations
             modelBuilder.Entity("Entities.Product", b =>
                 {
                     b.HasOne("Entities.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -296,6 +315,8 @@ namespace Data.Migrations
             modelBuilder.Entity("Entities.Category", b =>
                 {
                     b.Navigation("Posts");
+
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

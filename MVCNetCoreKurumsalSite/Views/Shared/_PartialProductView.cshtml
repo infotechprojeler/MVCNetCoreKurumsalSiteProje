@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Product>
 
-@foreach (var item in Model)
+@foreach (var item in Model.Where(x => x.IsActive))
 {
     <div class="col">
         <a href="/@item.Name.Replace(" ", "-").ToLower()/Products/Detail/@item?.Id" class="text-decoration-none">

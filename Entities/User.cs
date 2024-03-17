@@ -21,5 +21,9 @@ namespace Entities
         public bool IsActive { get; set; }
         [Display(Name = "Admin")]
         public bool IsAdmin { get; set; }
+        // JWT için gerekli property ler
+        public string? UserGuid { get; set; } = Guid.NewGuid().ToString();
+        public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpireDate { get; set; }
     }
 }

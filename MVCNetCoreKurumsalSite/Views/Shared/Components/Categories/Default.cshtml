@@ -6,7 +6,7 @@
     </a>
 
     <ul class="dropdown-menu">
-        @foreach (var item in Model)
+        @foreach (var item in Model.Where(x => x.IsActive))
         {
             <li><a class="dropdown-item" href="/Categories/Index/@item.Id">@item.Name</a></li>
         }
@@ -20,7 +20,7 @@
     </a>
 
     <ul class="dropdown-menu">
-        @foreach (var item in Model)
+        @foreach (var item in Model.Where(x => x.IsActive))
         {
             <li><a class="dropdown-item" href="/Products/Index/@item.Id">@item.Name</a></li>
         }

@@ -2,7 +2,7 @@
 
 namespace Entities
 {
-    public class AdminLoginViewModel
+    public class LoginViewModel
     {
         [StringLength(50), Required, DataType(DataType.EmailAddress)]
         public string Email { get; set; }

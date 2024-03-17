@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QuwxNZ3PCRkRIltuwl7zb0dM8TktyqYByDRRE2itxW8=",
+  "Hash": "rBS0B8Zs8PbXIbbkItvn4BmVsx0+mW5+RN89pHmsbyc=",
   "Source": "MVCNetCoreKurumsalSiteProje",
   "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
   "Mode": "Default",
@@ -549,6 +549,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\114.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/114.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\114.png"
+    },
+    {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\1200px-LampFlowchart_tr.svg.png",
       "SourceId": "MVCNetCoreKurumsalSiteProje",
       "SourceType": "Discovered",
@@ -566,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\1200px-LampFlowchart_tr.svg.png"
+    },
+    {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\angular_typescript_eigitimi_infotech_academy18.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/angular_typescript_eigitimi_infotech_academy18.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\angular_typescript_eigitimi_infotech_academy18.png"
     },
     {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\aspnetcoemvc16.png",
@@ -699,6 +737,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\logoInfotechAcademy.png"
+    },
+    {
+      "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\mikroservisler_egitimi_infotech20.png",
+      "SourceId": "MVCNetCoreKurumsalSiteProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\",
+      "BasePath": "_content/MVCNetCoreKurumsalSiteProje",
+      "RelativePath": "Images/mikroservisler_egitimi_infotech20.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\mikroservisler_egitimi_infotech20.png"
     },
     {
       "Identity": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\net-core-eticaret-gelistirme-egitimi29.png",

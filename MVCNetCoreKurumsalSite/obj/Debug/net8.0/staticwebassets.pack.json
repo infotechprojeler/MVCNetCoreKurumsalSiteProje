@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\AdminTema\\tables.html"
     },
     {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\114.png",
+      "PackagePath": "staticwebassets\\Images\\114.png"
+    },
+    {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\1200px-LampFlowchart_tr.svg.png",
       "PackagePath": "staticwebassets\\Images\\1200px-LampFlowchart_tr.svg.png"
     },
@@ -95,6 +99,10 @@
     {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\Screenshot 2023-10-13 103705.png",
       "PackagePath": "staticwebassets\\Images\\Screenshot 2023-10-13 103705.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\angular_typescript_eigitimi_infotech_academy18.png",
+      "PackagePath": "staticwebassets\\Images\\angular_typescript_eigitimi_infotech_academy18.png"
     },
     {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\aspnetcoemvc16.png",
@@ -123,6 +131,10 @@
     {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\logoInfotechAcademy.png",
       "PackagePath": "staticwebassets\\Images\\logoInfotechAcademy.png"
+    },
+    {
+      "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\mikroservisler_egitimi_infotech20.png",
+      "PackagePath": "staticwebassets\\Images\\mikroservisler_egitimi_infotech20.png"
     },
     {
       "Id": "C:\\Users\\Infotech Academy\\source\\repos\\MVCNetCoreKurumsalSiteProje\\MVCNetCoreKurumsalSite\\wwwroot\\Images\\net-core-eticaret-gelistirme-egitimi29.png",

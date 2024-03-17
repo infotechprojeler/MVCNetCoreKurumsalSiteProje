@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
-    [Area("Admin"), Authorize]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")] // program.cs de ayarladığımız yetkilendirmeyi bu şekilde controller bazında ayarlıyoruz. Duruma göre aynı yapıyı aşağıdaki actionlara da tek tek uygulayabiliriz.
     public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;

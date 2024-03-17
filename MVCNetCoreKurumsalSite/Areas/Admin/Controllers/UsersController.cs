@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
-    [Area("Admin"), Authorize]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class UsersController : Controller
     {
         private readonly DatabaseContext _context;

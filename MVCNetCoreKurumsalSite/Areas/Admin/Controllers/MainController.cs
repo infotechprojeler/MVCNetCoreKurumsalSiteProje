@@ -7,7 +7,7 @@ using System.Security.Claims;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
-    [Area("Admin"), Authorize]
+    [Area("Admin"), Authorize(Policy = "UserPolicy")]
     public class MainController : Controller
     {
         private readonly DatabaseContext _context; // sağ tık > ampul > generate constructor

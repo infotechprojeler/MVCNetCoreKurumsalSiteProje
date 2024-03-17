@@ -9,7 +9,7 @@ using Service;
 
 namespace MVCNetCoreKurumsalSiteProje.Areas.Admin.Controllers
 {
-    [Area("Admin"), Authorize]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class ProductsController : Controller
     {
         private readonly DatabaseContext _context;
